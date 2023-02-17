@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alpay\\Source\\Repos\\APIVehicle\\Entity\\Entity.csproj": {}
+    "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alpay\\Source\\Repos\\APIVehicle\\Entity\\Entity.csproj": {
+    "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alpay\\Source\\Repos\\APIVehicle\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\alpay\\Source\\Repos\\APIVehicle\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\alpay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alpay\\Source\\Repos\\APIVehicle\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alpay\\AppData\\Roaming\\NuGet\\NuGet.Config",

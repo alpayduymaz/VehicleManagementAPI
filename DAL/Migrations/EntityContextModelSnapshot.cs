@@ -60,15 +60,15 @@ namespace DAL.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Entity.Vehicle.Car", b =>
+            modelBuilder.Entity("Entity.Vehicle.Boat", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<string>("Color")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Color")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -79,14 +79,115 @@ namespace DAL.Migrations
                     b.Property<int>("DataStatus")
                         .HasColumnType("int");
 
+                    b.Property<int>("Kilometer")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("LastUpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<int?>("LastUpdatedUserId")
                         .HasColumnType("int");
 
+                    b.Property<string>("ModelName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("ProcessingTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreatedUserId");
+
+                    b.HasIndex("LastUpdatedUserId");
+
+                    b.ToTable("Boats");
+                });
+
+            modelBuilder.Entity("Entity.Vehicle.Buse", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("Color")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("CreatedUserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DataStatus")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Kilometer")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("LastUpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("LastUpdatedUserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ModelName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ProcessingTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreatedUserId");
+
+                    b.HasIndex("LastUpdatedUserId");
+
+                    b.ToTable("Buses");
+                });
+
+            modelBuilder.Entity("Entity.Vehicle.Car", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("Color")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("CreatedUserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DataStatus")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Kilometer")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("LastUpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("LastUpdatedUserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ModelName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ProcessingTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -111,6 +212,9 @@ namespace DAL.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int?>("CreatedUserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CreatedYear")
                         .HasColumnType("int");
 
                     b.Property<int>("DataStatus")
@@ -143,6 +247,36 @@ namespace DAL.Migrations
                     b.HasOne("Entity.Users.User", "LastUpdatedUser")
                         .WithOne()
                         .HasForeignKey("Entity.Users.User", "LastUpdatedUserId");
+
+                    b.Navigation("CreatedUser");
+
+                    b.Navigation("LastUpdatedUser");
+                });
+
+            modelBuilder.Entity("Entity.Vehicle.Boat", b =>
+                {
+                    b.HasOne("Entity.Users.User", "CreatedUser")
+                        .WithMany()
+                        .HasForeignKey("CreatedUserId");
+
+                    b.HasOne("Entity.Users.User", "LastUpdatedUser")
+                        .WithMany()
+                        .HasForeignKey("LastUpdatedUserId");
+
+                    b.Navigation("CreatedUser");
+
+                    b.Navigation("LastUpdatedUser");
+                });
+
+            modelBuilder.Entity("Entity.Vehicle.Buse", b =>
+                {
+                    b.HasOne("Entity.Users.User", "CreatedUser")
+                        .WithMany()
+                        .HasForeignKey("CreatedUserId");
+
+                    b.HasOne("Entity.Users.User", "LastUpdatedUser")
+                        .WithMany()
+                        .HasForeignKey("LastUpdatedUserId");
 
                     b.Navigation("CreatedUser");
 

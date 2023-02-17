@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DAL",
+    "\\DAL\\Core",
+    "\\DAL\\Core\\Entity"
   ],
-  "SelectedNode": "\\C:\\Users\\alpay\\Source\\Repos\\APIVehicle",
+  "SelectedNode": "\\DAL\\Core\\Entity\\EntityContext.cs",
   "PreviewInSolutionExplorer": false
 }
