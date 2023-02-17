@@ -79,6 +79,9 @@ namespace DAL.Migrations
                     b.Property<int>("DataStatus")
                         .HasColumnType("int");
 
+                    b.Property<bool>("Headlight")
+                        .HasColumnType("bit");
+
                     b.Property<int>("Kilometer")
                         .HasColumnType("int");
 
@@ -125,6 +128,9 @@ namespace DAL.Migrations
                     b.Property<int>("DataStatus")
                         .HasColumnType("int");
 
+                    b.Property<bool>("Headlight")
+                        .HasColumnType("bit");
+
                     b.Property<int>("Kilometer")
                         .HasColumnType("int");
 
@@ -170,6 +176,9 @@ namespace DAL.Migrations
 
                     b.Property<int>("DataStatus")
                         .HasColumnType("int");
+
+                    b.Property<bool>("Headlight")
+                        .HasColumnType("bit");
 
                     b.Property<int>("Kilometer")
                         .HasColumnType("int");

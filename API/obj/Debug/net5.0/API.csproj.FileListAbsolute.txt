@@ -66,3 +66,5 @@ C:\Users\alpay\source\repos\CaseApi\API\bin\Debug\net5.0\Microsoft.EntityFramewo
 C:\Users\alpay\source\repos\CaseApi\API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\alpay\source\repos\CaseApi\API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\alpay\source\repos\CaseApi\API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\alpay\source\repos\CaseApi\API\bin\Debug\net5.0\DTO.dll
+C:\Users\alpay\source\repos\CaseApi\API\bin\Debug\net5.0\DTO.pdb

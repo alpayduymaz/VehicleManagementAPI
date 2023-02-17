@@ -15,6 +15,7 @@ namespace Entity.Vehicle
         public string ModelName { get; set; }
         public int Year { get; set; }
         public int Kilometer { get; set; }
+        public bool Headlight { get; set; }
         public Color Color { get; set; }
     }
     public enum Color

@@ -34,6 +34,7 @@
       "API/1.0.0": {
         "dependencies": {
           "BLL": "1.0.0",
+          "DTO": "1.0.0",
           "Entity": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
@@ -1540,6 +1541,17 @@
         },
         "compile": {
           "DAL.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "dependencies": {
+          "Entity": "1.0.0"
+        },
+        "runtime": {
+          "DTO.dll": {}
+        },
+        "compile": {
+          "DTO.dll": {}
         }
       },
       "Entity/1.0.0": {
@@ -4165,6 +4177,11 @@
       "sha512": ""
     },
     "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

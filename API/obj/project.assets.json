@@ -1947,6 +1947,19 @@
           "bin/placeholder/DAL.dll": {}
         }
       },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
+      },
       "Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6640,6 +6653,11 @@
       "path": "../DAL/DAL.csproj",
       "msbuildProject": "../DAL/DAL.csproj"
     },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
+    },
     "Entity/1.0.0": {
       "type": "project",
       "path": "../Entity/Entity.csproj",
@@ -6649,6 +6667,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "BLL >= 1.0.0",
+      "DTO >= 1.0.0",
       "Entity >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
@@ -6688,6 +6707,9 @@
           "projectReferences": {
             "C:\\Users\\alpay\\source\\repos\\APIVehicle\\BLL\\BLL.csproj": {
               "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\BLL\\BLL.csproj"
+            },
+            "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DTO\\DTO.csproj"
             },
             "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj": {
               "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj"

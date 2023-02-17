@@ -1,0 +1,15 @@
+C:\Users\alpay\source\repos\CaseApi\DTO\bin\Debug\net5.0\DTO.deps.json
+C:\Users\alpay\source\repos\CaseApi\DTO\bin\Debug\net5.0\DTO.dll
+C:\Users\alpay\source\repos\CaseApi\DTO\bin\Debug\net5.0\ref\DTO.dll
+C:\Users\alpay\source\repos\CaseApi\DTO\bin\Debug\net5.0\DTO.pdb
+C:\Users\alpay\source\repos\CaseApi\DTO\bin\Debug\net5.0\Entity.dll
+C:\Users\alpay\source\repos\CaseApi\DTO\bin\Debug\net5.0\Entity.pdb
+C:\Users\alpay\source\repos\CaseApi\DTO\obj\Debug\net5.0\DTO.csproj.AssemblyReference.cache
+C:\Users\alpay\source\repos\CaseApi\DTO\obj\Debug\net5.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alpay\source\repos\CaseApi\DTO\obj\Debug\net5.0\DTO.AssemblyInfoInputs.cache
+C:\Users\alpay\source\repos\CaseApi\DTO\obj\Debug\net5.0\DTO.AssemblyInfo.cs
+C:\Users\alpay\source\repos\CaseApi\DTO\obj\Debug\net5.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\alpay\source\repos\CaseApi\DTO\obj\Debug\net5.0\DTO.csproj.CopyComplete
+C:\Users\alpay\source\repos\CaseApi\DTO\obj\Debug\net5.0\DTO.dll
+C:\Users\alpay\source\repos\CaseApi\DTO\obj\Debug\net5.0\ref\DTO.dll
+C:\Users\alpay\source\repos\CaseApi\DTO\obj\Debug\net5.0\DTO.pdb
