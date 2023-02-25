@@ -24,7 +24,7 @@ namespace API.Controllers.Car
         [HttpGet, Route("GetAll")]
         public IActionResult GetAll()
         {
-            return Ok(_carRepository.GetAll(x => x.DataStatus == Entity.Shared.DataStatus.Activated).ToList());
+            return Ok(_carRepository.FindBy(x => x.DataStatus == Entity.Shared.DataStatus.Activated).ToList());
         }
 
         /// <summary>

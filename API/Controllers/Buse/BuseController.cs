@@ -23,7 +23,7 @@ namespace API.Controllers.Buse
         [HttpGet, Route("GetAll")]
         public IActionResult GetAll()
         {
-            return Ok(_buseRepository.GetAll(x => x.DataStatus == Entity.Shared.DataStatus.Activated).ToList());
+            return Ok(_buseRepository.FindBy(x => x.DataStatus == Entity.Shared.DataStatus.Activated).ToList());
         }
 
         /// <summary>
