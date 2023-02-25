@@ -29,7 +29,6 @@ namespace API
 
         private static void AddServices(ref IServiceCollection services)
         {
-            services.AddScoped<IVehicleRepository, VehicleRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ICarRepository, CarRepository>();
             services.AddScoped<IBuseRepository, BuseRepository>();

@@ -148,7 +148,7 @@ namespace API.Controllers.Car
         }
 
         /// <summary>
-        /// Yeni Car kaydını oluşturur.
+        /// Car kayıtlarını renge göre filtreler.
         /// </summary>
         /// <param name="val">Oluşturulacak Car kaydının bilgisidir.</param>
         [HttpGet, Route("ColorFilter")]

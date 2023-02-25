@@ -10,3 +10,14 @@ C:\Users\alpay\source\repos\CaseApi\Entity\obj\Debug\net5.0\Entity.dll
 C:\Users\alpay\source\repos\CaseApi\Entity\obj\Debug\net5.0\ref\Entity.dll
 C:\Users\alpay\source\repos\CaseApi\Entity\obj\Debug\net5.0\Entity.pdb
 C:\Users\alpay\source\repos\CaseApi\Entity\obj\Debug\net5.0\Entity.csproj.AssemblyReference.cache
+C:\Users\alpay\source\repos\APIVehicle\Entity\bin\Debug\net5.0\Entity.deps.json
+C:\Users\alpay\source\repos\APIVehicle\Entity\bin\Debug\net5.0\Entity.dll
+C:\Users\alpay\source\repos\APIVehicle\Entity\bin\Debug\net5.0\ref\Entity.dll
+C:\Users\alpay\source\repos\APIVehicle\Entity\bin\Debug\net5.0\Entity.pdb
+C:\Users\alpay\source\repos\APIVehicle\Entity\obj\Debug\net5.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alpay\source\repos\APIVehicle\Entity\obj\Debug\net5.0\Entity.AssemblyInfoInputs.cache
+C:\Users\alpay\source\repos\APIVehicle\Entity\obj\Debug\net5.0\Entity.AssemblyInfo.cs
+C:\Users\alpay\source\repos\APIVehicle\Entity\obj\Debug\net5.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\alpay\source\repos\APIVehicle\Entity\obj\Debug\net5.0\Entity.dll
+C:\Users\alpay\source\repos\APIVehicle\Entity\obj\Debug\net5.0\ref\Entity.dll
+C:\Users\alpay\source\repos\APIVehicle\Entity\obj\Debug\net5.0\Entity.pdb

@@ -147,7 +147,7 @@ namespace API.Controllers.Boat
         }
 
         /// <summary>
-        /// Yeni Boat kaydını oluşturur.
+        /// Boat kayıtlarını renge göre filtreler.
         /// </summary>
         /// <param name="val">Oluşturulacak Boat kaydının bilgisidir.</param>
         [HttpGet, Route("ColorFilter")]

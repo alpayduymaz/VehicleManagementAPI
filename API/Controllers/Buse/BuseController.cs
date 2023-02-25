@@ -147,7 +147,7 @@ namespace API.Controllers.Buse
         }
 
         /// <summary>
-        /// Yeni Buse kaydını oluşturur.
+        /// Buse kayıtlarını renge göre filtreler.
         /// </summary>
         /// <param name="val">Oluşturulacak Buse kaydının bilgisidir.</param>
         [HttpGet, Route("ColorFilter")]

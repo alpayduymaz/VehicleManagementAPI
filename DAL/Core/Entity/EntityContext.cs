@@ -30,7 +30,6 @@ namespace DAL.Core.Entity
             optionsBuilder.UseSqlServer("server=DESKTOP-H0M8STK\\MSSQL;database=CaseDB; integrated security=true;");
         }
         */
-        public DbSet<Vehicle> Vehicles { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Car> Cars { get; set; }
         public DbSet<Boat> Boats { get; set; }
