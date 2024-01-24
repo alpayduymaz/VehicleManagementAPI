@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\DAL",
-    "\\DAL\\Core",
-    "\\DAL\\Core\\Entity"
+    ""
   ],
-  "SelectedNode": "\\DAL\\Core\\Entity\\EntityContext.cs",
+  "SelectedNode": "\\CaseApi.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -214,5 +214,14 @@ namespace API.Controllers.Boat
                 return BadRequest(res);
             }
         }
+
+        /// <summary>
+        /// Tüm DeActivated Boat verilerini getirir.
+        /// </summary>
+        [HttpGet, Route("GetAllDeactivatedBoats")]
+        public IActionResult GetAllDeactivatedBoats()
+        {
+            return Ok(_boatRepository.FindBy(x => x.DataStatus == Entity.Shared.DataStatus.DeActivated).ToList());
+        }
     }
 }

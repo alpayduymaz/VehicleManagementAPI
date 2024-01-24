@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alpay\\source\\repos\\APIVehicle\\API\\API.csproj": {}
+    "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alpay\\source\\repos\\APIVehicle\\API\\API.csproj": {
+    "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\alpay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\API\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alpay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\alpay\\source\\repos\\APIVehicle\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\BLL\\BLL.csproj"
+              "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DTO\\DTO.csproj"
+              "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DTO\\DTO.csproj"
               },
-              "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj"
+              "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj"
               }
             }
           }
@@ -105,17 +105,17 @@
         }
       }
     },
-    "C:\\Users\\alpay\\source\\repos\\APIVehicle\\BLL\\BLL.csproj": {
+    "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\alpay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alpay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,11 +129,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DAL\\DAL.csproj"
+              "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj"
+              "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj"
               }
             }
           }
@@ -172,17 +172,17 @@
         }
       }
     },
-    "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DAL\\DAL.csproj": {
+    "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\alpay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alpay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,8 +196,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj"
+              "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj"
               }
             }
           }
@@ -260,17 +260,17 @@
         }
       }
     },
-    "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DTO\\DTO.csproj": {
+    "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\alpay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DTO\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alpay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -284,8 +284,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj"
+              "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj"
               }
             }
           }
@@ -318,17 +318,17 @@
         }
       }
     },
-    "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj": {
+    "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\alpay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alpay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

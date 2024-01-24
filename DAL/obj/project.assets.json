@@ -6731,19 +6731,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alpay\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\alpay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DAL\\obj\\",
+      "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alpay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6757,8 +6757,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj"
+            "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj"
             }
           }
         }

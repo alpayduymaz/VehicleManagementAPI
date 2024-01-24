@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0UmpxZNaDqAjXXICs3brp8TohibXogIJtFfpN/c/zWjupw36zMG++nB6e63m5Rv8OQz/uSmFEkse6EzwvDNXVg==",
+  "dgSpecHash": "0X6KzyWTxLa/9jIb+fBfWZ5jAkXK+/BVfDwFSZEth8FqNPFKXJTWIQkFtOAQK/H9qfhngOwRhk5yuGbJuBh6+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\DTO\\DTO.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\DTO\\DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
