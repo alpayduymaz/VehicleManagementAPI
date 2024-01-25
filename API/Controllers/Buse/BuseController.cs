@@ -214,5 +214,14 @@ namespace API.Controllers.Buse
                 return BadRequest(res);
             }
         }
+
+        /// <summary>
+        /// Tüm DeActivated Buse verilerini getirir.
+        /// </summary>
+        [HttpGet, Route("GetAllDeactivatedBuses")]
+        public IActionResult GetAllDeactivatedBuses()
+        {
+            return Ok(_buseRepository.FindBy(x => x.DataStatus == Entity.Shared.DataStatus.DeActivated).ToList());
+        }
     }
 }
