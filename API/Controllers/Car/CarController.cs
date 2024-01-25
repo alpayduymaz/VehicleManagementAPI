@@ -215,5 +215,14 @@ namespace API.Controllers.Car
                 return BadRequest(res);
             }
         }
+
+        /// <summary>
+        /// Tüm DeActivated Car verilerini getirir.
+        /// </summary>
+        [HttpGet, Route("GetAllDeactivatedCars")]
+        public IActionResult GetAllDeactivatedCars()
+        {
+            return Ok(_carRepository.FindBy(x => x.DataStatus == Entity.Shared.DataStatus.DeActivated).ToList());
+        }
     }
 }
