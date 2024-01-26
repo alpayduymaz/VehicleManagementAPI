@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\alpay\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\Entity.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\API-.NET-5.0\\Entity\\obj\\",
+      "projectPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\Entity.csproj",
+      "packagesPath": "C:\\Users\\alpay\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alpay\\source\\repos\\APIVehicle\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alpay\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

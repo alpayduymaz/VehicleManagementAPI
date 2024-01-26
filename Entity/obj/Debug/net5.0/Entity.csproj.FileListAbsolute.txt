@@ -33,3 +33,4 @@ C:\Users\user\source\repos\API-.NET-5.0\Entity\obj\Debug\net5.0\Entity.pdb
 C:\Users\user\source\repos\API-.NET-5.0\Entity\obj\Debug\net5.0\ref\Entity.dll
 C:\Users\user\source\repos\API-.NET-5.0\Entity\bin\Debug\net5.0\ref\Entity.dll
 C:\Users\user\source\repos\API-.NET-5.0\Entity\obj\Debug\net5.0\Entity.csproj.AssemblyReference.cache
+C:\Users\alpay\source\repos\APIVehicle\Entity\obj\Debug\net5.0\Entity.csproj.AssemblyReference.cache

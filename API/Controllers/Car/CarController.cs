@@ -204,7 +204,7 @@ namespace API.Controllers.Car
                 _carRepository.Update(entity);
                 _carRepository.Commit();
                 res.Result = true;
-                res.ResultMessage = entity.Headlight == false ? "Farlar Açıldı" : "Farlar Kapatıldı";
+                res.ResultMessage = entity.Headlight == false ? "Farlar Kapatıldı" : "Farlar Açıldı";
                 res.Object = entity;
                 return Ok(res);
             }
