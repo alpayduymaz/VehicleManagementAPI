@@ -34,6 +34,7 @@ namespace DAL.Core.Entity
         public DbSet<Car> Cars { get; set; }
         public DbSet<Boat> Boats { get; set; }
         public DbSet<Buse> Buses { get; set; }
+        public DbSet<Categories> Categories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

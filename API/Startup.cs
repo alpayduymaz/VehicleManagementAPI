@@ -31,6 +31,7 @@ namespace API
         {
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ICarRepository, CarRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IBuseRepository, BuseRepository>();
             services.AddScoped<IBoatRepository, BoatRepository>();
 
